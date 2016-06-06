@@ -1,0 +1,64 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml:2:1-31:12
+	package
+		ADDED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml:3:11-76
+	android:versionName
+		INJECTED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml
+		INJECTED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml
+		INJECTED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml:4:5-74
+	android:targetSdkVersion
+		ADDED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml:4:42-71
+		INJECTED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml
+		INJECTED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml:4:15-41
+		INJECTED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml
+		INJECTED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml
+application
+ADDED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml:13:5-26:19
+MERGED from [cardboard-java:libraries-panowidget:unspecified] /home/prabal/cardboard-java/samples/simplepanowidget/build/intermediates/exploded-aar/cardboard-java/libraries-panowidget/unspecified/AndroidManifest.xml:5:5-6:19
+	android:label
+		ADDED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml:13:18-46
+	android:largeHeap
+		ADDED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml:14:7-31
+	android:theme
+		ADDED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml:15:7-54
+activity#com.google.vrtoolkit.cardboard.samples.simplepanowidget.SimpleVrPanoramaActivity
+ADDED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml:17:9-25:20
+	android:launchMode
+		ADDED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml:18:11-42
+	android:name
+		ADDED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml:17:19-59
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER+com.google.intent.category.CARDBOARD
+ADDED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml:19:13-24:29
+action#android.intent.action.MAIN
+ADDED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml:22:27-74
+category#com.google.intent.category.CARDBOARD
+ADDED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml:23:17-81
+	android:name
+		ADDED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml:23:27-78
+uses-permission#android.permission.INTERNET
+ADDED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml:29:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml:30:5-80
+	android:name
+		ADDED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml:30:22-77
+android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml:2:1-31:12 reason: com.google.vr.cardboard has a targetSdkVersion < 4
+android:uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /home/prabal/cardboard-java/samples/simplepanowidget/src/main/AndroidManifest.xml:2:1-31:12 reason: com.google.vr.cardboard has a targetSdkVersion < 4

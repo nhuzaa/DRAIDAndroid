@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <color name="alignment_marker_color">#cccccc</color>
+    <color name="textDark">#222</color>
+    <color name="textLight">#555</color>
+    <dimen name="alignment_marker_margin">15dip</dimen>
+    <dimen name="alignment_marker_thickness">4dip</dimen>
+    <dimen name="button_padding">10dip</dimen>
+    <dimen name="caption_text_size">12dip</dimen>
+    <dimen name="paragragh_text_size">15dip</dimen>
+    <dimen name="title_text_size">24dip</dimen>
+    <dimen name="transition_bottom_bar_height">112dip</dimen>
+    <item name="vrwidget_inner_view" type="id"/>
+    <string description="Button text used as an affirmative action. [CHAR LIMIT=20]" name="got_it">
+    GOT IT
+  </string>
+    <string name="image_caption">A point 3D perspective of a landscape</string>
+    <string name="paragraph1">After you are ready, choose VR mode, place your device in the Cardboard and start viewing.</string>
+    <string name="paragraph2">
+  </string>
+    <string description=" Message asking the user to place their phone into Cardboard. This is a generic message used in the absence of knowing the current viewer. [CHAR LIMIT=50]" name="place_your_phone_into_cardboard">
+      Place your phone into your Cardboard viewer
+    </string>
+    <string description=" Message format asking the user to place their phone into the Cardboard compatible viewer that is currently configured. [CHAR LIMIT=50]" name="place_your_viewer_into_viewer_format">
+      Place your phone into your <ns1:g example="Cardboard I/O 2015" id="viewer_name">%s</ns1:g> viewer
+    </string>
+    <string name="source">For more information &lt;a href="https://www.facebook.com/codecraftersnepal">Follow us&lt;/a></string>
+    <string name="subtitle">See what your bot is seeing</string>
+    <string description=" Text which when pressed, takes the user to the view that allows them to switch their Cardboard compatible viewer. [CHAR LIMIT=10]" name="switch_viewer_action">
+      Switch
+    </string>
+    <string description=" Prompt asking if the user wants to switch their Cardboard compatible viewer. [CHAR LIMIT=20]" name="switch_viewer_prompt">
+      Using a different viewer?
+    </string>
+    <string name="title">Welcome to DRAID VR Viewport</string>
+    <string description=" Title of dialog shown after the user pairs with their Cardboard viewer. [CHAR LIMIT=30]" name="viewer_configured_dialog_title">
+    Viewer configured!
+  </string>
+    <string description=" Message format shown after the user successfully pairs with a Cardboard viewer. viewer_name refers to the specific Cardboard viewer. [CHAR LIMIT=80]" name="viewer_configured_message_format">
+    The app is now configured for a <ns1:g example="Cardboard I/O 2015" id="viewer_name">%s</ns1:g> viewer.
+  </string>
+    <style name="CardboardDialogTheme" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="ContentText">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_margin">5dip</item>
+  </style>
+    <style name="ControlButton">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:background">@android:color/transparent</item>
+    <item name="android:padding">@dimen/button_padding</item>
+  </style>
+    <style name="UiButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:padding">9dip</item>
+    </style>
+</resources>

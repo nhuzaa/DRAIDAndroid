@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/prabal/cardboard-java/samples/simplepanowidget/build/intermediates/res/merged/debug/layout/ui_view_embed.xml",
+        "source": "/home/prabal/cardboard-java/samples/simplepanowidget/build/intermediates/exploded-aar/cardboard-java/libraries-commonwidget/unspecified/res/layout/ui_view_embed.xml"
+    },
+    {
+        "merged": "/home/prabal/cardboard-java/samples/simplepanowidget/build/intermediates/res/merged/debug/layout/transition_view.xml",
+        "source": "/home/prabal/cardboard-java/samples/simplepanowidget/build/intermediates/exploded-aar/cardboard-java/libraries-common/unspecified/res/layout/transition_view.xml"
+    },
+    {
+        "merged": "/home/prabal/cardboard-java/samples/simplepanowidget/build/intermediates/res/merged/debug/layout/ui_layer.xml",
+        "source": "/home/prabal/cardboard-java/samples/simplepanowidget/build/intermediates/exploded-aar/cardboard-java/libraries-common/unspecified/res/layout/ui_layer.xml"
+    },
+    {
+        "merged": "/home/prabal/cardboard-java/samples/simplepanowidget/build/intermediates/res/merged/debug/layout/ui_layer_with_portrait_support.xml",
+        "source": "/home/prabal/cardboard-java/samples/simplepanowidget/build/intermediates/exploded-aar/cardboard-java/libraries-common/unspecified/res/layout/ui_layer_with_portrait_support.xml"
+    },
+    {
+        "merged": "/home/prabal/cardboard-java/samples/simplepanowidget/build/intermediates/res/merged/debug/layout/back_button.xml",
+        "source": "/home/prabal/cardboard-java/samples/simplepanowidget/build/intermediates/exploded-aar/cardboard-java/libraries-common/unspecified/res/layout/back_button.xml"
+    },
+    {
+        "merged": "/home/prabal/cardboard-java/samples/simplepanowidget/build/intermediates/res/merged/debug/layout/main_layout.xml",
+        "source": "/home/prabal/cardboard-java/samples/simplepanowidget/src/main/res/layout/main_layout.xml"
+    }
+]

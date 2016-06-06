@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="title">Welcome to DRAID VR Viewport</string>
+  <string name="subtitle">See what your bot is seeing</string>
+  <string name="paragraph1">After you are ready, choose VR mode, place your device in the Cardboard and start viewing.</string>
+
+  <string name="image_caption">A point 3D perspective of a landscape</string>
+
+  <string name="paragraph2">
+  </string>
+
+  <string name="source">For more information &lt;a href="https://www.facebook.com/codecraftersnepal">Follow us&lt;/a></string>
+</resources>
